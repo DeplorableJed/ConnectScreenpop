@@ -7,8 +7,8 @@ import subscribeToAgentEvents from './agentEvents.js';
 export default function (ccpContainerId) {
     console.debug("CDEBUG >> CCP initialization() - ccpContainerId:", ccpContainerId);
     // Connect information: Replace with your Connect Instance
-    const ccpUrl = "https://<YOUR_REGION_NAME>.my.connect.aws/connect/ccp-v2";
-    const connectRegion = "us-west-2";
+    const ccpUrl = "https://<YOUR_INSTANCE_NAME>.my.connect.aws/connect/ccp-v2";
+    const connectRegion = "<YOUR_REGION>";
 
     //----------------Init CCP Start----------------------------
     try {
